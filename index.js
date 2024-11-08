@@ -27,7 +27,8 @@ async function createTemplate() {
   const defaultAnswers = {
     projectName: projectNameArg || defaultProjectName,
     author: defaultAuthor,
-    includeTests: true
+    includeTests: true,
+    portnodered: '1880'
   };
 
     let answers = {};
@@ -197,7 +198,7 @@ credentials.yml
 
 services:
   nodered:
-    image: nodered/node-red:3.0.2-18
+    image: nodered/node-red
     # network_mode: host
     extra_hosts:
       - "localhost:192.168.1.80"
@@ -623,7 +624,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
           "version": ">=2.0.0",
           "nodes": {
             "my-configs-node": "nodes/configs/my-configs-node.js",
-            "my-input-node": "nodes/input/my-input-node.js",
+            "my-input-node": "nodes/input/my-input-node.js"
           }
         },
         "keywords": [
