@@ -1,0 +1,25 @@
+{
+    "name": "nrlg",
+    "version": "1.0.0",
+    "description": "Script per generare template di progetto per librerie  di Node Nodered",
+    "author": "Alessio Pellizzaro <alessio.pellizzaro@apserial.it>",
+    "type": "module",
+    "license": "MPL-2.0",
+    "bin": {
+        "nrlg": "./index.js"
+    },
+    "keywords": [
+        "node-red",
+        "template"
+    ],
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@inquirer/prompts": "^7.0.1",
+        "node-emoji": "^2.1.3"
+    }
+}
