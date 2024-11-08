@@ -16,6 +16,10 @@
         "make",
         "build"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/APXc/nrlg"
+      },
     "engines": {
         "node": ">=16.0.0"
     },
