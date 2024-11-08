@@ -1,7 +1,7 @@
 {
     "name": "nrlg",
-    "version": "1.0.0",
-    "description": "Script per generare template di progetto per librerie  di Node Nodered",
+    "version": "0.0.1",
+    "description": "tool Generator project for build Node-RED Nodes lib",
     "author": "Alessio Pellizzaro <alessio.pellizzaro@apserial.it>",
     "type": "module",
     "license": "MPL-2.0",
@@ -10,7 +10,11 @@
     },
     "keywords": [
         "node-red",
-        "template"
+        "template",
+        "nodes",
+        "tools",
+        "make",
+        "build"
     ],
     "engines": {
         "node": ">=16.0.0"

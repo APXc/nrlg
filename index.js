@@ -2,7 +2,7 @@
 
 import fs from 'fs';
 import path from 'path';
-import { input, select } from '@inquirer/prompts';
+import { input, select, confirm } from '@inquirer/prompts';
 import { execSync } from 'child_process';
 import * as emoji from 'node-emoji';
 
@@ -757,7 +757,7 @@ Configuration node.
   console.log(`next steps: \n cd ${answers.projectName} \n npm install \n docker compose up \n npm run update \nRun make your code! ${emoji.find('🚀').emoji}`)
 }
 
-console.log(`${emoji.find('🚀').emoji} node-red-apxc-lib-node-gen alias nrlg - v1.0.0`);
-console.log(`${emoji.get('robot')} Library for Generator project for build Node-RED Nodes lib`);
+console.log(`${emoji.find('🚀').emoji} node-red-apxc-lib-node-gen alias nrlg - v0.0.1`);
+console.log(`${emoji.get('robot')} tool Generator project for build Node-RED Nodes lib`);
 console.log(`\n 🧑‍💻 by Alessio Pellizzaro <alessio.pellizzaro@apserial.it> - Italy\n`);
 createTemplate();
