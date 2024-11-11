@@ -7,7 +7,7 @@ tool Generator project for build Node-RED Nodes lib
 
  ## Generation files
 
- this tool generate a base strocture for make a Node-RED node lib, 
+ this tool generate a base structure for make a Node-RED node lib, 
 the schema it's a equal of [APXC Template Nodes Library for Node-RED](https://github.com/APXc/node-red-contrib-template)
 
 ## usage
